@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_pergunta3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POR QUE O LEÃO RUGIU?"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp" />
+
+    <RadioGroup
+        android:id="@+id/rg_escolha3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:layout_below="@+id/tv_pergunta3"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/cb1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PORQUE ELE MACHUCOU A PATA" />
+
+        <RadioButton
+            android:id="@+id/cb2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PORQUE ELE ESTAVA COM FOME" />
+
+        <RadioButton
+            android:id="@+id/cb3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PORQUE ELE ESTAVA PRESO" />
+
+        <RadioButton
+            android:id="@+id/cb4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PORQUE ELE NÃO TINHA AMIGOS" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_proxima3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="122dp"
+        android:text="Próxima"
+        android:layout_below="@+id/rg_escolha3"
+        android:layout_alignEnd="@+id/rg_escolha3" />
+
+</RelativeLayout>

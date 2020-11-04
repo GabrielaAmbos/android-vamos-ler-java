@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_proxima1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Próxima"
+        android:layout_marginTop="71dp"
+        android:layout_below="@+id/rg_escolha1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tv_pergunta1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUAIS ANIMAIS APARECERAM NA HISTÓRIA?"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_escolha1"
+        android:layout_marginTop="97dp"
+        android:layout_below="@+id/tv_pergunta1"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/cb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RATO E LEÃO" />
+
+        <RadioButton
+            android:id="@+id/cb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioButton6"
+            android:layout_alignTop="@+id/radioGroup2"
+            android:layout_weight="1"
+            android:text="GATO E RATO" />
+
+        <RadioButton
+            android:id="@+id/cb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/radioButton6"
+            android:layout_alignBottom="@+id/radioButton6"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:text="LEÃO E COELHO" />
+
+        <RadioButton
+            android:id="@+id/cb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TIGRE E GATO" />
+
+
+
+    </RadioGroup>
+
+</RelativeLayout>

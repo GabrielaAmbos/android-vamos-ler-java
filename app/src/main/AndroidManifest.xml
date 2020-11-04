@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gabri.vamos_ler_30">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TelaCadastro"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".TelaLogin"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".TelaMenu"></activity>
+        <activity android:name=".TelaListarAprendizes"></activity>
+        <activity android:name=".TelaMenuAprendiz"></activity>
+        <activity android:name=".TelaHistoria" android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".TelaListaEditarAprendizes" android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".TelaEditarAprendizes"></activity>
+        <activity android:name=".Atividade1"></activity>
+        <activity android:name=".Atividade2"></activity>
+        <activity android:name=".Atividade3"></activity>
+        <activity android:name=".Atividade4"></activity>
+        <activity android:name=".Slide1"></activity>
+        <activity android:name=".Slide2"></activity>
+        <activity android:name=".Slide3"></activity>
+        <activity android:name=".Slide4"></activity>
+        <activity android:name=".Slide5"></activity>
+        <activity android:name=".Slide6"></activity>
+        <activity android:name=".Slide7"></activity>
+        <activity android:name=".Slide8"></activity>
+        <activity android:name=".Slide9"></activity>
+        <activity android:name=".Slide10"></activity>
+        <activity android:name=".Slide11"></activity>
+        <activity android:name=".Slide12"></activity>
+        <activity android:name=".Questao1"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4c946077d2c8166dcb2c42df398a4078f38f989a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\okhttp-3.8.0_708b9a19ca6b5a6d65811a6abc1e515e9414eb96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.android\build-cache\a454cee199bed32c700b687b779ae0bf0a210b34\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\classes_0d2c7265e18fd07437276e4e9446b4af1183bb6e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9780f9cd6a0d2a4d4efabef5bbe4cd40e48bd34b">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e5a3fd17fe656e6b6e17c3635f93fed643fdf7e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.android\build-cache\bfbedffe6ece24b6874969562636f58d58c5059c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\classes_a0ce34802b5fe6d386a70552c43e94b11cb0a7fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\gson-2.7_933a1ae3dd1d64c2e73bf74ce7b485afb623c66b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.android\build-cache\eb9ec990a29b68c9ce8d960c22a510d45964c35f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="757d7e742ee90d50242abdc8616bfcfd04ad0575">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\classes_d423158b3bb011ae74c1ebb799569e2b72a36035.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gabri\.android\build-cache\de10a94dbfa1ef8784a7b343f264713d5a04a6f4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aa9733567e3a5a405163d373c72461f576833f00\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gabri\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.4.0_8893b20c1e49e83e49a7a37dfb54d9d6f42b1cab\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.android\build-cache\9ef2b3a3c56579fd842f4184b591f918a1f1c840\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\classes_701edcfa9ae63f7dedd72810b4b1e930a6a56357.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.android\build-cache\28a9cb33c0fe88982ac9eb78f2bace6452766c6e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\classes_be9d2b3deaa99b662e912f913e484456346269b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.android\build-cache\a828f1afad99385e60dbe574ad12e3dab280c272\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\classes_4ed263393d7bf95f86926d549196657ec5f7015d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_9c606d53cdf15209458cad65d104a621f6a176f2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gabri\.android\build-cache\4652affcd0abf827915a27db4876fce16893660a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3e67a51d39ed79be36dcc1b026624f8f5184ec46\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.android\build-cache\1452fb25c4d172b9e1a108ab8eab1d2c374cd968\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\classes_de60b8124a28c8e8d359d326d08ce2d97549ae42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.3.0\9e09011e9767bb76b5e27c9b8223476b93b14631\converter-gson-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\converter-gson-2.3.0_0c9c10e695b3db978793cd27fb42455666dda867.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.android\build-cache\d87728757d6626e7b2edd4d4e77459f909838793\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\classes_b4b8cd51ac0d0a3ef4b8e3630cc6cb2fe025d027.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.android\build-cache\4147f7cf86d0696bd0d44191ee4a260641e50b6b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\classes_507e4d88098604c2b213826fe85094db534f1bab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.android\build-cache\eb95cf03fc7c08200d1ebe6f4b2696320c9f54d8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\classes_d04c30678d7c1626baea8ddc9f8758f100349e39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.android\build-cache\ea38ac6a3985a250d847cb0ff004bf6f5086df3c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\classes_50be2244fcd32fe2b6d3b4b23c5a6ae78db4d0f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_a2608901077398be965c27a6687fe4644c0969e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\retrofit-2.3.0_795d11b45d7d916e021d8bc4d38815424ff46649.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.android\build-cache\e107958bbf1893c739249e2ea89697d4b70d55b9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\classes_18ad74aba2fdec1a4bd6a73c489c78cc0aa0c575.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\okio-1.13.0_5bfe05afcccedc07b4b7ab10385a555b326c3e35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.android\build-cache\6a3f876dfa4a56ab8b414f334aa0edd5e1528950\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\classes_1ce0cbb854f53716d9d952f0f0a7bcd67c86186c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gabri\.android\build-cache\d62dc2f9027d8316a65f60f555ccf6861f9b3777\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1db6784d006818fee2591f13b0bf09ac31a3d49a">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a42742b104a5500522951f28f0686d39f2850683\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gabri\.android\build-cache\e0c2c7fc4a2225f66a0e1256b0d676543976f8a8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\Gabri\Downloads\Claquete\Vamos_ler_3.0\app\build\intermediates\pre-dexed\debug\classes_90ad40a5f196a312aa1df23365b53d191ab2e134.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="FragmentConfig">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/etAltNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="128dp"
+            android:ems="10"
+            android:hint="Digite seu nome"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etAltEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/etAltNome"
+            android:layout_below="@+id/etAltNome"
+            android:ems="10"
+            android:hint="Digite seu email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etAltSenha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/etAltEmail"
+            android:layout_below="@+id/etAltEmail"
+            android:ems="10"
+            android:hint="Digite sua senha"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btAlterar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etAltSenha"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:text="Atualizar Dados" />
+
+        <TextView
+            android:id="@+id/tvDeletar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quero apagar minha conta!"
+            tools:text="Quero apagar minha conta!"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="13dp" />
+
+        <Button
+            android:id="@+id/btSair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deslogar"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

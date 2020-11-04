@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etCadNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="166dp"
+        android:ems="10"
+        android:typeface="sans"
+        android:hint="Digite seu nome"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etCadEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etCadNome"
+        android:layout_below="@+id/etCadNome"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:typeface="sans"
+        android:hint="Digite seu email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etCadSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:typeface="sans"
+        android:hint="Digite uma senha"
+        android:inputType="textPassword"
+        android:layout_below="@+id/etCadEmail"
+        android:layout_alignStart="@+id/etCadEmail" />
+
+
+
+    <Button
+        android:id="@+id/btCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="Cadastrar"
+        android:typeface="sans"
+        android:layout_below="@+id/etCadSenha"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="193dp"
+        android:layout_height="219dp"
+        app:srcCompat="@drawable/icone_vamos_ler"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="-15dp"
+        android:layout_marginBottom="48dp"
+        android:layout_above="@+id/etCadEmail"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,287 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <RadioGroup
+            android:id="@+id/rgHistoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="377dp"
+                android:layout_height="288dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im_prim" />
+
+            <TextView
+                android:id="@+id/tv_texto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="18dp"
+                android:layout_marginStart="15dp"
+                android:text="UM LEÃO, CANSADO DE TANTO CAÇAR, DORMIA  ESPICHADO À SOMBRA DE UMA BOA ÀRVORE"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="375dp"
+                android:layout_height="230dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im_seg" />
+
+            <TextView
+                android:id="@+id/tv_texto2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="18dp"
+                android:layout_marginStart="15dp"
+                android:text="VIERAM UNS RATINHOS PASSEAR EM CIMA DELE E…"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im_terc" />
+
+            <TextView
+                android:id="@+id/tv_texto3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="18dp"
+                android:layout_marginStart="15dp"
+                android:text="...E ELE ACORDOU."
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im_quart" />
+
+            <TextView
+                android:id="@+id/tv_texto4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="18dp"
+                android:layout_marginStart="15dp"
+                android:text="TODOS CONSEGUIRAM FUGIR…"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im_quint" />
+
+            <TextView
+                android:id="@+id/tv_texto5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="18dp"
+                android:layout_marginStart="15dp"
+                android:text="MENOS UM, QUE O LEÃO PRENDEU EMBAIXO DA PATA."
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im_sexta" />
+
+            <TextView
+                android:id="@+id/tv_texto6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="18dp"
+                android:layout_marginStart="15dp"
+                android:text="TANTO O RATINHO PEDIU E IMPLOROU QUE O LEÃO DESISTOU DE ESMAGÁ-LO E DEIXOU QUE FOSSE EMBORA."
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im_set" />
+
+            <TextView
+                android:id="@+id/tv_texto7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="18dp"
+                android:layout_marginStart="15dp"
+                android:text="ALGUM TEMPO DEPOIS, O LEÃO FICOU PRESO NA REDE DE UNS CAÇADORES."
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/image8"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im_oitav" />
+
+            <TextView
+                android:id="@+id/tv_texto8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="18dp"
+                android:layout_marginStart="15dp"
+                android:text="NÃO CONSEGUIA SE SOLTAR…"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/image9"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im_nona" />
+
+            <TextView
+                android:id="@+id/tv_texto9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="18dp"
+                android:layout_marginStart="15dp"
+                android:text="E FAZIA A FLORESTA INTEIRA TREMER COM SEUS URROS DE RAIVA."
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/image10"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im_decim" />
+
+            <TextView
+                android:id="@+id/tv_texto10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="18dp"
+                android:layout_marginStart="15dp"
+                android:text="NISSO, APARECEU O RATINHO."
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/image11"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im_dec_prim" />
+
+            <TextView
+                android:id="@+id/tv_texto11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="18dp"
+                android:layout_marginStart="15dp"
+                android:text="COM SEUS DENTES AFIADOS, ROEU AS CORDAS E SOLTOU O LEÃO."
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/image12"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/im_dec_seg" />
+
+            <TextView
+                android:id="@+id/tv_texto12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="18dp"
+                android:layout_marginStart="15dp"
+                android:text="UMA BOA AÇÃO GANHA OUTRA"
+                android:textColor="@android:color/black" />
+
+
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvOpa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Isso é um disfarce? Qual o nome dele?"
+            android:textSize="30sp"
+            android:layout_above="@+id/et_nome_crianca_N"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginBottom="37dp" />
+
+        <EditText
+            android:id="@+id/et_nome_crianca_N"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:hint="Nome do Aprendiz"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/bt_alterar_Crianca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_nome_crianca_N"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="52dp"
+            android:text="Atualizar Aprendiz" />
+
+        <TextView
+            android:id="@+id/tv_deletarAprendiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="19dp"
+            android:text="Quero deletar esse Aprendiz!" />
+
+    </RelativeLayout>
+
+</FrameLayout>

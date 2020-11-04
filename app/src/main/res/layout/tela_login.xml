@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/EtEmailResp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="207dp"
+        android:ems="10"
+        android:hint="Digite seu email"
+        android:typeface="sans"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etSenhaResp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/EtEmailResp"
+        android:layout_below="@+id/EtEmailResp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:typeface="sans"
+        android:hint="Digite sua senha"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btLogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etSenhaResp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:typeface="sans"
+        android:text="Entrar" />
+
+    <TextView
+        android:id="@+id/tv_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btLogar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:typeface="sans"
+        android:text="Não tem uma conta? Registre-se!" />
+
+    <ImageView
+        android:id="@+id/iv_vamos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etSenhaResp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="98dp"
+        app:srcCompat="@drawable/icone_vamos_ler" />
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvEba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="124dp"
+            android:text="Eba! Um novo aprendiz"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/et_nome_crianca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEba"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:ems="10"
+            android:hint="Nome do Aprendiz"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/bt_adicionar_crianca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp"
+            android:text="Adicionar Aprendiz"
+            android:layout_above="@+id/btListar"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btListar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="83dp"
+            android:text="Listar Aprendizes" />
+
+        <TextView
+            android:id="@+id/tv_apagarAprendiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="19dp"
+            android:text="Quero editar ou deletar um Aprendiz!"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>

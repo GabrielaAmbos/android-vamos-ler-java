@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_pergunta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O QUE O RATINHO FEZ QUANDO VIU O LEÃO PRESO?"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp" />
+
+    <RadioGroup
+        android:id="@+id/gr_escolha2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/cb_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/gr_escolha2"
+            android:layout_marginEnd="41dp"
+            android:layout_weight="1"
+            android:text="ELE FUGIU DO LEÃO" />
+
+        <RadioButton
+            android:id="@+id/cb1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ELE ROEU A REDE" />
+
+        <RadioButton
+            android:id="@+id/cb_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ELE PASSEOU EM CIMA DO LEÃO" />
+
+        <RadioButton
+            android:id="@+id/cb_4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioButton2"
+            android:layout_below="@+id/radioButton2"
+            android:layout_weight="1"
+            android:text="ELE FOI EMBORA" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_proxima2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:text="Próxima" />
+</RelativeLayout>
